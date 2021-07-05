@@ -1,0 +1,28 @@
+{
+  "name": "hugo-examples",
+  "version": "1.0.0",
+  "description": "Hugo examples",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com:RyoWakabayashi/hugo-examples.git"
+  },
+  "author": "Ryo Wakabayashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyoWakabayashi/hugo-examples/issues"
+  },
+  "homepage": "https://github.com/RyoWakabayashi/hugo-examples#readme",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^7.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
