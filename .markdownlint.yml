@@ -1,0 +1,11 @@
+---
+default: true
+
+MD029:
+  style: ordered
+
+MD030:
+  ul_multi: 3
+
+MD033: false
+MD041: false
